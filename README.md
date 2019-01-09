@@ -45,6 +45,6 @@ MY_ARRAY=('apple' 'banana' 'orange')
 ${#MY_ARRAY[@]}
 
 # Get value by index
-$MY_ARRAY[2]
+${MY_ARRAY[2]}
 ```
 
