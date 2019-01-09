@@ -39,7 +39,7 @@ FILES_LIST=$(ls)
 ### Arrays
 ```sh
 # Define an array
-MY_ARRAY=('apple', 'banana', 'orange')
+MY_ARRAY=('apple' 'banana' 'orange')
 
 # Length of an array
 ${#MY_ARRAY[@]}
