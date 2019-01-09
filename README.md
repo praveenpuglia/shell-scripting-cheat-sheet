@@ -41,6 +41,9 @@ FILES_LIST=$(ls)
 # Define an array
 MY_ARRAY=('apple' 'banana' 'orange')
 
+# All items of the array
+${MY_ARRAY[@]}
+
 # Length of an array
 ${#MY_ARRAY[@]}
 
